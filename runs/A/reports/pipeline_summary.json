@@ -1,0 +1,18 @@
+{
+  "total_records": 65549,
+  "erp_records": 37029,
+  "invoice_records": 28520,
+  "included_records": 52468,
+  "excluded_records": 13081,
+  "included_net_spend_zar": 3620518805.9226084,
+  "excluded_spend_zar": 0.0,
+  "taxonomy_paths_used": 40,
+  "review_flagged_records": 53983,
+  "labels_used_for_inference": false,
+  "output": "/Users/piyush/cantill-spend-pipeline/runs/A/final_spend.csv",
+  "company": "A",
+  "runtime_seconds": 15.93,
+  "input_erp": "/Users/piyush/cantill-spend-pipeline/data/raw/erp_goods_receipts.csv",
+  "input_invoices": "/Users/piyush/cantill-spend-pipeline/data/raw/invoice_tool_export.csv",
+  "input_taxonomy": "/Users/piyush/cantill-spend-pipeline/data/raw/taxonomy_A.csv"
+}

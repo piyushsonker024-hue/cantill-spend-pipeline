@@ -1,0 +1,42 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local configuration
+.env
+.env.*
+.DS_Store
+
+# Temporary notebooks
+.ipynb_checkpoints/
+
+# Generated intermediate files
+data/processed/
+reports/
+
+# Keep raw input files out of Git by default
+data/raw/
+
+# Generated run intermediates
+runs/*/data/
+runs/*/work/
+
+# Ignore generated source-code copies
+runs/A/src/
+runs/B/src/
+
+# Allow final pipeline summary reports
+!runs/A/reports/
+!runs/A/reports/pipeline_summary.json
+!runs/B/reports/
+!runs/B/reports/pipeline_summary.json
+
+# Ignore optional generated reports
+runs/A/reports/classification_summary.json
+runs/A/reports/eligibility_summary.json
+runs/A/reports/entity_resolution_summary.json

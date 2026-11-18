@@ -1,0 +1,18 @@
+{
+  "company": "B",
+  "total_records": 41028,
+  "included_records": 40879,
+  "excluded_records": 149,
+  "included_net_spend_usd": 345622273.6804515,
+  "excluded_spend_usd": 0.0,
+  "reversal_pair_records": 146,
+  "ambiguous_reversal_review_records": 182,
+  "invalid_amount_records": 3,
+  "missing_fx_records": 0,
+  "review_flagged_records": 36578,
+  "taxonomy_paths_used": 40,
+  "labels_used_for_inference": false,
+  "currency": "USD",
+  "policy_note": "No document-type exclusions without business mapping; unmatched credits retained. Reversal matching is conservative. Confidence is heuristic.",
+  "runtime_seconds": 7.74
+}
