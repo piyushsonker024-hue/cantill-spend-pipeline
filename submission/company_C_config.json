@@ -1,0 +1,33 @@
+{
+  "company": "C",
+  "source": "invoice_lines.csv",
+  "taxonomy": "category_tree_C.csv",
+  "currency": "USD",
+  "record_id_column": "line_id",
+  "supplier_column": "supplier_name",
+  "description_columns": [
+    "line_description",
+    "product_service_description",
+    "invoice_description",
+    "gl_account_description"
+  ],
+  "spend_column": "line_amount_usd",
+  "eligibility": {
+    "status_column": "status",
+    "included_status": "Approved",
+    "excluded_status_mapping": {
+      "Cancelled": "CANCELLED"
+    },
+    "excluded_spend": 0
+  },
+  "taxonomy_columns": {
+    "l1": "level_1",
+    "l2": "level_2",
+    "l3": "level_3",
+    "l4": "level_4"
+  },
+  "classification": {
+    "use_labels": false,
+    "preserve_exact_taxonomy_names": true
+  }
+}
